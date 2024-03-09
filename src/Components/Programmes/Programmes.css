@@ -36,10 +36,11 @@
   align-items: center;
   flex-direction: column;
   gap: 15px;
-  background: rgba(36, 10, 52, 0.5);
+  background: rgba(73, 66, 228, 0.3);
   opacity: 0;
   padding-top: 70%;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .programme:hover .caption {

@@ -1,7 +1,7 @@
 .main-image-container {
   background-image: linear-gradient(
-      rgba(36, 10, 52, 0.7),
-      rgba(36, 10, 52, 0.7)
+      rgba(73, 66, 228, 0.3),
+      rgba(73, 66, 228, 0.3)
     ),
     url('/images/hero.jpg');
   width: 100%;
