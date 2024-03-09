@@ -11,7 +11,7 @@ const Main = () => {
           field of education
         </p>
         <button>
-          Explore More <img src="/public/images/next.png"></img>
+          Explore More <img src="/images/next.png"></img>
         </button>
       </div>
     </div>
