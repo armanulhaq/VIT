@@ -47,3 +47,16 @@
   opacity: 1;
   padding-top: 0;
 }
+
+
+@media screen and (max-width: 947px) {
+  .programmes {
+    margin: 40px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+}

@@ -1,8 +1,8 @@
 nav {
-  box-sizing: border-box;
-  width: 100%;
+  box-sizing: border-box;/*hmm*/
+  width: 100vw;
   height: 10vh;
-  background-color: #4942e4;
+  background-color: #212ea0;
   display: flex;
   align-items: center;
   padding: 0 100px;
@@ -21,6 +21,7 @@ nav ul {
   display: flex;
   gap: 40px;
   list-style: none;
+  font-size: small;
 }
 
 nav li {
@@ -50,4 +51,32 @@ nav button {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.menu {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+
+
+@media screen and (max-width: 947px) {
+  
+  nav {
+    height: 10vh;
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  nav li {
+    display: none;
+  }
+
+  nav button {
+    display: none;
+  }
+  
+  nav .menu {
+    display: block;
+  }
 }
