@@ -103,6 +103,7 @@ textarea {
         display: flex;
         flex-direction: column;
         gap: 50px;
+        margin: 0px auto;
     }
     .contact-left {
         width: 80%;
