@@ -81,6 +81,7 @@ input {
     padding-right: 10px;
     background-color: #ebecfe;
     border: none;
+    border-radius: 4px;
 }
 
 .input-container {
@@ -94,6 +95,7 @@ textarea {
     padding: 10px;
     background-color: #ebecfe;
     border: none;
+    border-radius: 4px;
 }
 
 
