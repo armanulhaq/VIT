@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav>
       <div className="university-logo-container">
         <img className="uni-logo" src="/images/college-logo.png"></img>
-        <h3>AUH</h3>
+        <h3>Elysian</h3>
       </div>
 
       <ul>
